@@ -1,10 +1,10 @@
 import random
 #список мобов
-names_mob = ['Skeleton', 'Gnoll', 'Spider', 'Goblin', 'Zombie']
+names_mob = ['Skeleton', 'Tyrant', 'Spider', 'Goblin', 'Zombie']
 #словарь, в котором хранятся данные по мобам
 mobs = {
     'Skeleton':[random.randint(25, 101), random.randint(5, 16)],
-    'Gnoll': [random.randint(30, 151), random.randint(10, 21)],
+    'Tyrant': [random.randint(30, 151), random.randint(10, 21)],
     'Spider': [random.randint(4, 96), random.randint(3, 11)],
     'Goblin': [random.randint(15, 127), random.randint(10, 26)],
     'Zombie': [random.randint(19, 196), random.randint(12, 36)]
